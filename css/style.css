@@ -173,6 +173,10 @@ p {
   font-size: 16px;
 }
 
+#faq {
+  padding-bottom: 30px;
+}
+
 #faq h2 {
   padding: 30px;
   color: rgb(153,120,181);
@@ -183,11 +187,32 @@ p {
   margin: auto;
 }
 
+#faq #questions .item {
+  padding-bottom: 15px;
+}
+
 #contact {
   clear: both;
+  background-color: rgb(58,57,60);
+  padding-bottom: 30px;
 }
 
 #contact h2 {
   padding: 30px;
   color: rgb(153,120,181);
+}
+
+#contact h5 {
+  color: white;
+  width: 50%;
+  padding-bottom: 15px;
+}
+
+#contact h5 a {
+  color: rgb(153,120,181);
+}
+
+#contact h5 a:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
