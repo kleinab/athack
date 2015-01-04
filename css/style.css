@@ -191,6 +191,19 @@ p {
   padding-bottom: 15px;
 }
 
+#register {
+  clear: both;
+}
+
+#register #heading {
+  background-color: rgb(153,120,181);
+  padding: 50px;
+}
+
+#register a {
+  color: white;
+}
+
 #contact {
   clear: both;
   background-color: rgb(58,57,60);
@@ -215,4 +228,12 @@ p {
 #contact h5 a:hover {
   text-decoration: underline;
   cursor: pointer;
+}
+
+#contact a {
+  cursor: pointer;
+}
+
+#contact i {
+  color: rgb(153,120,181);
 }
