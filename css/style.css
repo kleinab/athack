@@ -45,6 +45,10 @@ p {
   font-size: 16px;
 }
 
+a, a:hover, a:visited, a:active {
+  text-decoration: none;
+}
+
 .bigjohn {
   font-family: 'Big John', sans-serif;
 }
@@ -110,6 +114,19 @@ p {
 
 #main #name-display img {
   width: 100%;
+}
+
+#main #name-display a #registration {
+  background-color: white;
+  color: rgb(153,120,181);
+  padding: 5px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+#main #name-display a:hover #registration {
+  background-color: rgb(153,120,181);
+  color: white;
 }
 
 #about {
@@ -191,19 +208,6 @@ p {
   padding-bottom: 15px;
 }
 
-#register {
-  clear: both;
-}
-
-#register #heading {
-  background-color: rgb(153,120,181);
-  padding: 50px;
-}
-
-#register a {
-  color: white;
-}
-
 #contact {
   clear: both;
   background-color: rgb(58,57,60);
@@ -236,4 +240,5 @@ p {
 
 #contact i {
   color: rgb(153,120,181);
+  font-size: 24px;
 }
