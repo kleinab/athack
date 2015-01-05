@@ -13,6 +13,16 @@
     <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
 
+    <script type="text/javascript">
+    $(document).ready(function() {
+      $(".picture .overlay").hover(function() {
+        $(this).css("background-color", "rgba(153,120,181,0)");
+      }, function() {
+        $(this).css("background-color", "rgba(153,120,181,0.5)");
+      });
+    });
+    </script>
+
   </head>
   <body>
     <nav class="navbar navbar-inverse navbar-static-top">
@@ -24,6 +34,8 @@
           <li><a href="#about">About</a></li>
           <li><a href="#schedule">Schedule</a></li>
           <li><a href="#faq">FAQ</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#sponsors">Sponsors</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
@@ -43,7 +55,7 @@
     <div id="about" class="section">
       <center>
         <div id="heading">
-          <h2>About</h2>
+          <h2>About ATHack</h2>
         </div>
         <div id="content">
           <img src="img/whitelogo.png" />
@@ -106,6 +118,41 @@
           <h5>Will the client be telling us exactly what they want us to make? Is there a creative aspect to the hackathon?</h5>
           <p>Clients are looking for your ideas and inspiration so that they can work with their teams on an AT project. No one will be dictating what you're building during the event.</p>
         </div>
+      </div>
+    </div>
+    <div id="team" class="section">
+      <center>
+        <div id="heading">
+          <h2>Team</h2>
+        </div>
+        <div id="content">
+          <div id="pictures">
+            <div class="col-md-3"><div class="picture" id="abby"><div class="overlay"></div></div><p>Abby Klein</p></div>
+            <div class="col-md-3"><div class="picture" id="ishwarya"><div class="overlay"></div></div><p>Ishwarya Ananthabhotla</p></div>
+            <div class="col-md-3"><div class="picture" id="jaya"><div class="overlay"></div></div><p>Jaya Narain</p></div>
+            <div class="col-md-3"><div class="picture" id="william"><div class="overlay"></div></div><p>William Li</p></div>
+            <div class="col-md-3"><div class="picture" id="jodie"><div class="overlay"></div></div><p>Jodie Chen</p></div>
+            <div class="col-md-3"><div class="picture" id="dhruv"><div class="overlay"></div></div><p>Dhruv Jain</p></div>
+            <div class="col-md-3"><div class="picture" id="sneha"><div class="overlay"></div></div><p>Sneha Lingam</p></div>
+            <div class="col-md-3"><div class="picture" id="emma"><div class="overlay"></div></div><p>Emma Nelson</p></div>
+            <div class="col-md-3"><div class="picture" id="jen"><div class="overlay"></div></div><p>Jen Tylock</p></div>
+            <div class="col-md-3"><div class="picture" id="maggiebeth"><div class="overlay"></div></div><p>Maggie Beth Rosen-Filardo</p></div>
+          </div>
+          <div id="teller">
+            <img src="img/team/Teller.jpg" />
+            <h5>This hackathon was founded with the help of Professor Seth Teller. We continue to be inspired by him.</h5>
+          </div>
+        </div>
+      </center>
+    </div>
+    <div id="sponsors" class="section">
+      <center>
+        <h2>Sponsors</h2>
+      </center>
+      <div id="sponsors-list">
+        <div class="item col-md-4"><a href="http://www.akamai.com/"><img src="img/akamai.jpg" /></a></div>
+        <div class="item col-md-4"><a href="https://www.oculus.com/"><img src="img/oculus.png" /></a></div>
+        <div class="item col-md-4"><a href="http://www.eecs.mit.edu/"><img src="img/eecs.png" /></a></div>
       </div>
     </div>
     <div id="contact" class="section">

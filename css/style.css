@@ -85,6 +85,10 @@ a, a:hover, a:visited, a:active {
   color: gray;
 }
 
+.section {
+  clear: both;
+}
+
 #main {
   background-image: url("../img/walker.jpg");
   background-size: cover;
@@ -94,7 +98,7 @@ a, a:hover, a:visited, a:active {
   height: 600px;
 }
 
-#overlay {
+#main #overlay {
   width: 100%;
   height: 600px;
   background-color: rgba(153,120,181,0.5);
@@ -208,8 +212,117 @@ a, a:hover, a:visited, a:active {
   padding-bottom: 15px;
 }
 
-#contact {
+#team {
+  color: white;
+}
+
+#team #heading {
+  background-color: rgb(153,120,181);
+  padding: 50px;
+}
+
+#team #content {
+  background-color: rgb(58,57,60);
+  padding-bottom: 40px;
+}
+
+#team #content #pictures {
+  width: 640px;
+}
+
+#team #content #pictures .col-md-3 {
+  width: 150px;
+  height: 150px;
+  margin: 25px 5px;
+  padding: 0px;
+}
+
+#team #content #pictures .col-md-3 .picture {
+  background-size: 150px 150px;
+}
+
+#team #content #pictures .picture .overlay {
+  width: 150px;
+  height: 150px;
+  background-color: rgba(153,120,181,0.5);
+}
+
+#team #content #abby {
+  background-image: url("../img/team/Abby.jpg");
+}
+
+#team #content #ishwarya {
+  background-image: url("../img/team/Ishwarya.jpg");
+}
+
+#team #content #jaya {
+  background-image: url("../img/team/Jaya.jpg");
+}
+
+#team #content #william {
+  background-image: url("../img/team/William.jpg");
+}
+
+#team #content #jodie {
+  background-image: url("../img/team/Jodie.jpg");
+}
+
+#team #content #dhruv {
+  background-image: url("../img/team/Dhruv.jpg");
+}
+
+#team #content #sneha {
+  background-image: url("../img/team/Sneha.jpg");
+}
+
+#team #content #emma {
+  background-image: url("../img/team/Emma.jpg");
+}
+
+#team #content #jen {
+  background-image: url("../img/team/Jen.jpg");
+}
+
+#team #content #maggiebeth {
+  background-image: url("../img/team/MaggieBeth.jpg");
+}
+
+#team #content #teller {
   clear: both;
+  width: 40%;
+}
+
+#team #content #teller img {
+  border: 2px solid white;
+  border-radius: 5px;
+  width: 150px;
+  height: 100%;
+  margin: 30px;
+}
+
+#sponsors {
+  padding-bottom: 30px;
+}
+
+#sponsors h2 {
+  padding: 30px;
+  color: rgb(153,120,181);
+}
+
+#sponsors #sponsors-list {
+  width: 70%;
+  margin: auto;
+}
+
+#sponsors #sponsors-list .item {
+  padding-bottom: 15px;
+}
+
+#sponsors #sponsors-list img {
+  height: 100px;
+}
+
+#contact {
   background-color: rgb(58,57,60);
   padding-bottom: 30px;
 }
