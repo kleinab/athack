@@ -312,7 +312,7 @@ a, a:hover, a:visited, a:active {
 }
 
 #sponsors #sponsors-list {
-  width: 70%;
+  width: 80%;
   margin: auto;
 }
 
@@ -321,8 +321,8 @@ a, a:hover, a:visited, a:active {
 }
 
 #sponsors #sponsors-list img {
-  max-height: 100px;
-  width: 70%;
+  max-height: 80px;
+  max-width: 70%;
 }
 
 #contact {
